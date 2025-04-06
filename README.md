@@ -1,27 +1,27 @@
-# Generative AI Health App  
+# Gemini Health App – Calorie Advisor  
 **LLM Project | Powered by Google Gemini Pro Vision**
 
-This repository contains a generative AI-powered health assistant application that utilizes Google Gemini Pro Vision (Large Image Models) to analyze medical images and provide intelligent health-related insights and recommendations. The project combines multimodal large language model capabilities with practical healthcare applications.
+This repository contains a Streamlit-based AI application that uses Google Gemini Pro Vision (Large Image Models) to analyze food images and estimate total calorie intake. The model also provides a breakdown of each food item's nutritional content based on visual analysis.
 
 ---
 
 ## ✨ Features
 
-- 🧠 Medical image analysis using Google Gemini Pro Vision  
-- 💬 Natural language interface for health-related queries  
-- 📄 AI-generated health reports and suggestions  
-- 🖼️ Multimodal interaction combining image and text input  
-- 🩺 Useful for early-stage screening and monitoring
+- 🧠 Food image recognition using Google Gemini Pro Vision  
+- 🔍 Calorie estimation based on visual input  
+- 📝 Detailed breakdown of food items with individual calorie counts  
+- 🖼️ Upload images in JPG, JPEG, or PNG format  
+- ⚡ Interactive and simple web interface using Streamlit
 
 ---
 
 ## 🛠️ Technology Stack
 
 - Python 3.x  
-- Streamlit (for interactive web interface)  
+- Streamlit  
 - Google Gemini Pro Vision API  
-- Pillow / OpenCV for image processing  
-- python-dotenv for environment variable management
+- Pillow (for image handling)  
+- python-dotenv (for managing API keys securely)
 
 ---
 
@@ -29,8 +29,9 @@ This repository contains a generative AI-powered health assistant application th
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/generative-ai-health-app.git
-   cd generative-ai-health-app
+   git clone https://github.com/yourusername/gemini-calorie-advisor.git
+   cd gemini-calorie-advisor
+
 
 2. **Install dependencies**
    ```bash
