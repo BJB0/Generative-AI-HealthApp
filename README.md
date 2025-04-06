@@ -53,7 +53,7 @@ streamlit run app.py
 
 ## ⚙️ How It Works
 
-1.Upload a image.
+1.Upload an image.
 
 2.The app processes the image and sends it to the Gemini Pro Vision model.
 
