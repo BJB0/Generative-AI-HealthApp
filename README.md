@@ -1,36 +1,39 @@
-# Gemini Health App – Calorie Advisor  
-**LLM Project | Powered by Google Gemini Pro Vision**
+# 🥗 Gemini Health App - Calorie Advisor
 
-This repository contains a Streamlit-based AI application that uses Google Gemini Pro Vision (Large Image Models) to analyze food images and estimate total calorie intake. The model also provides a breakdown of each food item's nutritional content based on visual analysis.
+A smart and interactive AI-powered web app that analyzes food images and estimates their total calories using Google Gemini Pro Vision. It also provides health insights based on the detected food items.
 
----
-
-## ✨ Features
-
-- 🧠 Food image recognition using Google Gemini Pro Vision  
-- 🔍 Calorie estimation based on visual input  
-- 📝 Detailed breakdown of food items with individual calorie counts  
-- 🖼️ Upload images in JPG, JPEG, or PNG format  
-- ⚡ Interactive and simple web interface using Streamlit
+Built with **Streamlit**, this app is designed for anyone who wants quick and insightful nutritional analysis from just an image!
 
 ---
 
-## 🛠️ Technology Stack
+## 🚀 Features
 
-- Python 3.x  
-- Streamlit  
-- Google Gemini Pro Vision API  
-- Pillow (for image handling)  
-- python-dotenv (for managing API keys securely)
+- 📸 Upload a food image (JPEG/PNG)
+- 🍔 Detects and lists all visible food items
+- 🔢 Estimates calorie count for each item
+- ✅ Calculates total calorie intake
+- ⚖️ Analyzes whether the meal is healthy or not
+- 💡 Suggests ways to make unhealthy meals healthier
+- 🧠 Clear, emoji-enhanced, point-wise breakdown
 
 ---
 
-## 📦 Installation
+## 🛠️ Tech Stack
+
+- **Frontend**: [Streamlit](https://streamlit.io/)
+- **Backend AI**: [Google Gemini Pro Vision](https://ai.google.dev/)
+- **Image Processing**: Pillow (PIL)
+- **Env Management**: python-dotenv
+
+---
+
+## 📦 Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/gemini-calorie-advisor.git
-   cd gemini-calorie-advisor
+   git clone https://github.com/your-username/gemini-health-app.git
+   cd gemini-health-app
+
 
 
 2. **Install dependencies**
@@ -50,7 +53,7 @@ streamlit run app.py
 
 ## ⚙️ How It Works
 
-1.Upload a medical image (e.g., X-ray, MRI, dermatological photo).
+1.Upload a image.
 
 2.The app processes the image and sends it to the Gemini Pro Vision model.
 
