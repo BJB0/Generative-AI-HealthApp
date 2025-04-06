@@ -53,13 +53,17 @@ streamlit run app.py
 
 ## ⚙️ How It Works
 
-1.Upload an image.
+1.User uploads a food image (e.g., plate of meal, snack, etc.)
 
-2.The app processes the image and sends it to the Gemini Pro Vision model.
+2.The app sends the image to Google Gemini Pro Vision along with a nutrition-focused prompt
 
-3.The model returns structured health insights and suggestions.
+3.Gemini returns:
 
-4.Results are displayed in a user-friendly Streamlit interface.
+ -Estimated total calorie count
+
+ -A breakdown of individual food items and their respective calories
+
+4.The results are displayed in an easy-to-read format within the Streamlit app
  
 
 
